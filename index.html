@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav>
+        <div class="brandname"><i class="far fa-circle"></i>&nbspSuipe</div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <div class="getAccount">Create Account</div>
+        <div class="menuBtn">
+          <div class="menu-btnBurger"></div>
+        </div>
+
+        <div class="hamMenu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <a href="#" class="btn">Create Account</a>
+        </div>
+      </nav>
+      <!-- Top section in header section  -->
+      <section class="topView">
+        <div class="brandTagline">
+          <p>
+            A trusted and secure bitcoin exchange
+            <i class="fas fa-crosshairs"></i>
+          </p>
+        </div>
+        <div class="brandInfo">
+          <p>
+            Your guide to the world of an open financial system. Get started
+            with the easiest and most secure platform to buy and trade
+            cryptocurrency.
+          </p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+      </section>
+      <!-- Bottom section in header section  -->
+      <section class="bottomSection">
+        <div class="svg">
+          <img
+            src="https://th.bing.com/th/id/OIP.nRtCHYGK5_Alfs6Bj60pBwHaEo?pid=ImgDet&rs=1"
+            alt=""
+          />
+        </div>
+        <div class="currentDetail">
+          <div class="currentExp">
+            <div class="exp">
+              <span>2013</span>
+              <p>Market entry year</p>
+            </div>
+            <div class="exp">
+              <span>0%</span>
+              <p>Customer's funds lost</p>
+            </div>
+            <div class="exp">
+              <span>~4M</span>
+              <p>Registered users on trade platform</p>
+            </div>
+            <div class="exp">
+              <span>99%</span>
+              <p>Countries supported and 48 US States</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Second section of the site -->
+    <section id="secondSection">
+      <div class="slideControler">
+        <div class="controler">
+          <div class="numbering">
+            <span class="start">1</span>/<span class="ending">6</span>
+          </div>
+          <div>
+            <span id="prev" onclick="previous()"
+              ><i class="fas fa-arrow-left"></i
+            ></span>
+            <span id="next" onclick="next()"
+              ><i class="fas fa-arrow-right"></i
+            ></span>
+          </div>
+        </div>
+        <p>Start trading crypto.</p>
+        <a href="#">Start Trading</a>
+      </div>
+      <div id="featureContainer">
+        <div class="featureCard">
+          <div class="featureIcon"><i class="far fa-credit-card"></i></div>
+          <div class="featureName">Payment option1</div>
+          <div class="featureinfo">
+            Multiple payment methods: Visa, Mastercard, Bank transfer (SWIFT,
+            SEPA, ACH, Faster Payments), Cryptocurrency
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureIcon"><i class="far fa-credit-card"></i></div>
+          <div class="featureName">Payment Option2</div>
+          <div class="featureinfo">
+            Multiple payment methods: Visa, Mastercard, Bank transfer (SWIFT,
+            SEPA, ACH, Faster Payments), Cryptocurrency
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureIcon"><i class="far fa-credit-card"></i></div>
+          <div class="featureName">Payment Option3</div>
+          <div class="featureinfo">
+            Multiple payment methods: Visa, Mastercard, Bank transfer (SWIFT,
+            SEPA, ACH, Faster Payments), Cryptocurrency
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureIcon"><i class="far fa-credit-card"></i></div>
+          <div class="featureName">Payment Option4</div>
+          <div class="featureinfo">
+            Multiple payment methods: Visa, Mastercard, Bank transfer (SWIFT,
+            SEPA, ACH, Faster Payments), Cryptocurrency
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureIcon"><i class="far fa-credit-card"></i></div>
+          <div class="featureName">Payment Option5</div>
+          <div class="featureinfo">
+            Multiple payment methods: Visa, Mastercard, Bank transfer (SWIFT,
+            SEPA, ACH, Faster Payments), Cryptocurrency
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureIcon"><i class="far fa-credit-card"></i></div>
+          <div class="featureName">Payment Option6</div>
+          <div class="featureinfo">
+            Multiple payment methods: Visa, Mastercard, Bank transfer (SWIFT,
+            SEPA, ACH, Faster Payments), Cryptocurrency
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third Section of the site -->
+    <section id="thirdSection">
+      <div class="sectionTitle">
+        <p>Top Cryptocurrencies</p>
+        <div class="dotcontroler">
+          <span id="1" class="dotSlider active"></span>
+          <span id="2" class="dotSlider"></span>
+          <span id="3" class="dotSlider"></span>
+          <span id="4" class="dotSlider"></span>
+          <span id="5" class="dotSlider"></span>
+          <span id="6" class="dotSlider"></span>
+        </div>
+      </div>
+      <div class="serviceCardContainer">
+        <div class="serviceCard">
+          <div class="serviceNumber">01.</div>
+          <div class="crypto">
+            <div class="featureIcon"><i class="fab fa-bitcoin"></i></div>
+            <span class="cryptName">Bitcoin</span>
+          </div>
+          <div class="currentCryptoRate">USD 34592.8</div>
+          <div class="currentCryptoStatus">(-5.48%)</div>
+          <div class="cryptoinfo">
+            Since its launch in 2009, Bitcoin has proven to be ...
+          </div>
+          <a class="buybtn" href="#">Buy Coin</a>
+        </div>
+        <div class="serviceCard">
+          <div class="serviceNumber">02.</div>
+          <div class="crypto">
+            <div class="featureIcon"><i class="fab fa-ethereum"></i></div>
+            <span class="cryptName">Ethereum</span>
+          </div>
+          <div class="currentCryptoRate">USD 34592.8</div>
+          <div class="currentCryptoStatus">(-5.48%)</div>
+          <div class="cryptoinfo">
+            Since its launch in 2009, Bitcoin has proven to be ...
+          </div>
+          <a class="buybtn" href="#">Buy Coin</a>
+        </div>
+        <div class="serviceCard">
+          <div class="serviceNumber">03.</div>
+          <div class="crypto">
+            <div class="featureIcon"><i class="fab fa-bitcoin"></i></div>
+            <span class="cryptName">Bitcoin</span>
+          </div>
+          <div class="currentCryptoRate">USD 34592.8</div>
+          <div class="currentCryptoStatus">(-5.48%)</div>
+          <div class="cryptoinfo">
+            Since its launch in 2009, Bitcoin has proven to be ...
+          </div>
+          <a class="buybtn" href="#">Buy Coin</a>
+        </div>
+        <div class="serviceCard">
+          <div class="serviceNumber">04.</div>
+          <div class="crypto">
+            <div class="featureIcon"><i class="fab fa-ethereum"></i></div>
+            <span class="cryptName">Ethereum</span>
+          </div>
+          <div class="currentCryptoRate">USD 34592.8</div>
+          <div class="currentCryptoStatus">(-5.48%)</div>
+          <div class="cryptoinfo">
+            Since its launch in 2009, Bitcoin has proven to be ...
+          </div>
+          <a class="buybtn" href="#">Buy Coin</a>
+        </div>
+        <div class="serviceCard">
+          <div class="serviceNumber">05.</div>
+          <div class="crypto">
+            <div class="featureIcon"><i class="fab fa-bitcoin"></i></div>
+            <span class="cryptName">Bitcoin</span>
+          </div>
+          <div class="currentCryptoRate">USD 34592.8</div>
+          <div class="currentCryptoStatus">(-5.48%)</div>
+          <div class="cryptoinfo">
+            Since its launch in 2009, Bitcoin has proven to be ...
+          </div>
+          <a class="buybtn" href="#">Buy Coin</a>
+        </div>
+        <div class="serviceCard">
+          <div class="serviceNumber">06.</div>
+          <div class="crypto">
+            <div class="featureIcon"><i class="fab fa-ethereum"></i></div>
+            <span class="cryptName">Ethereum</span>
+          </div>
+          <div class="currentCryptoRate">USD 34592.8</div>
+          <div class="currentCryptoStatus">(-5.48%)</div>
+          <div class="cryptoinfo">
+            Since its launch in 2009, Bitcoin has proven to be ...
+          </div>
+          <a class="buybtn" href="#">Buy Coin</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- fourth Section of this site -->
+    <section id="fourthSection">
+      <div class="container">
+        <div class="leftDetails">
+          <h1 class="heading">Get ready to explore the crypto world</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptate nemo assumenda deserunt inventore odit unde
+            est sed perferendis. Numquam sapiente quidem asperiores.
+          </p>
+          <a class="btn" href="#">Lorem, go dolor.</a>
+        </div>
+        <div class="rightSvg"><img src="atm.png" alt="" srcset="" /></div>
+      </div>
+    </section>
+
+    <!-- five Section of this site -->
+    <section id="fifthSection">
+      <div class="glassContainer">
+        <div class="innerContent">
+          <p>
+            Become part of a global community of people who have found their
+            path to the crypto world with Suipe
+          </p>
+          <a class="btn" href="#">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer of the website -->
+    <footer id="lastSection">
+      <div class="Coloumn">
+        <h3>Suipe</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+          autem! Sed, qui dolorem?
+        </p>
+      </div>
+      <div class="Coloumn">
+        <h5>Lorem</h5>
+        <ul>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+        </ul>
+      </div>
+      <div class="Coloumn">
+        <h5>Lorem</h5>
+        <ul>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+        </ul>
+      </div>
+      <div class="Coloumn">
+        <h5>Lorem</h5>
+        <ul>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+        </ul>
+      </div>
+
+      <div class="Coloumn">
+        <a href="#"
+          ><img
+            src="https://www.pikpng.com/pngl/m/144-1445686_store-png.png"
+            alt=""
+        /></a>
+        <a href="#"
+          ><img
+            src="https://img.favpng.com/2/16/2/google-play-mobile-app-logo-app-store-png-favpng-M0QG7xBW04knDj1EYjfQriiSF.jpg"
+            alt=""
+        /></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/8f57e1bdc4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="mind.js"></script>
+  </body>
+</html>
